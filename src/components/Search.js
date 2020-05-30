@@ -12,9 +12,7 @@ const Search = ({ updateMovie }) => {
 
     return (
         <div className="search">
-            <a href="https://www.themoviedb.org/?language=en-US" target="blank">
-                <img src={Logo} alt="TMDB movie database website" width="180px"></img>
-            </a>
+          <h1>MovieApp</h1>
             <form className="search-form">
                 <Autosuggest
                     inputProps={{
