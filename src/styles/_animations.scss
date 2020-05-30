@@ -1,0 +1,25 @@
+@keyframes neon {
+    0% {
+        box-shadow: 15px 15px 15px rgb(1, 212, 119),
+                    -15px -15px 15px rgb(1, 212, 119),
+                    15px -15px 15px rgb(1, 212, 119),
+                    -15px 15px 15px rgb(1, 212, 119),
+                    inset 7.5px 7.5px 10px rgb(1, 212, 119),
+                    inset -7.5px -7.5px 10px rgb(1, 212, 119);
+                    padding: 25px;
+                    opacity: 1;
+                    text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.5),
+                                -2px -2px 5px rgba(255, 255, 255, 0.5);
+    }
+
+    100% {
+        box-shadow: 7.5px 7.5 10px rgb(1, 212, 119),
+                    -7.5px -7.5px 10px rgb(1, 212, 119),
+                    7.5px -7.5px 10px rgb(1, 212, 119),
+                    -7.5px 7.5px 10px rgb(1, 212, 119),
+                    inset 5px 5px 10px rgb(1, 212, 119),
+                    inset 5px 5px 10px rgb(1, 212, 119);
+                    padding: 20px;
+                    opacity: .25;
+    }
+}
